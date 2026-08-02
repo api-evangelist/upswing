@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://integration-docs.upswing.one
+summary:
+  types:
+  - openIdConnect
+  notes: >-
+    Upswing publishes no public OpenAPI, so no securitySchemes could be derived.
+    This profile is observed, not derived: the partner integration documentation
+    portal at https://integration-docs.upswing.one redirects unauthenticated
+    visitors to a Keycloak-hosted OpenID Connect authorization endpoint
+    (https://idp.uat-upswing.one/realms/IntegrationDocs/protocol/openid-connect/auth)
+    with PKCE (code_challenge) and scope "openid profile email". This confirms
+    the platform uses Keycloak / OpenID Connect for identity, but the underlying
+    partner API authentication model is not publicly documented and is governed
+    under commercial partner agreements.
+schemes:
+- name: keycloak-oidc
+  type: openIdConnect
+  observed_at: https://integration-docs.upswing.one
+  identity_provider: https://idp.uat-upswing.one/realms/IntegrationDocs
+  flow: authorizationCode
+  pkce: true
+  scopes:
+  - openid
+  - profile
+  - email
+  sources:
+  - live probe of integration-docs.upswing.one redirect

@@ -1,8 +1,14 @@
 aid: upswing
 name: Upswing
-description: 'Upswing is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Upswing Financial Technologies is an Indian open finance-as-a-service platform
+  headquartered in Bengaluru and Mumbai. Its full-stack API platform lets consumer
+  companies embed financial products such as deposits and lending from regulated
+  partner banks (AU Small Finance Bank, DCB Bank, Utkarsh, Shivalik, Unity, South
+  Indian Bank, Suryoday), while Upswing manages the bank integrations and
+  compliance. Backed by QED Investors and Quona Capital. Upswing publishes no
+  public developer portal or API documentation; its APIs are offered to partners
+  under commercial agreements.
 url: https://raw.githubusercontent.com/api-evangelist/upswing/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +16,66 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/640f1cf7637b80779a61f818/65d309ac6e4a0177aef94e99_webclip.svg
 tags:
 - Company
 - Fintech
+- Open Finance
+- Embedded Finance
+- Banking
+- India
+- Deposits
+- Lending
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/upswing-domain-security.yml
 - type: Website
-  url: http://upswing.one
+  url: https://upswing.one/
+- type: Blog
+  url: https://upswing.one/news
+- type: Careers
+  url: https://upswing.one/career
+- type: Partners
+  url: https://upswing.one/our-partners
+- type: GitHubOrganization
+  url: https://github.com/upswing-one
+- type: LinkedIn
+  url: https://www.linkedin.com/company/upswing-financial-technologies/
+- type: Contact
+  url: mailto:contact@upswing.one
+- type: LLMsTxt
+  url: llms/upswing-llms.txt
+- type: WellKnown
+  url: well-known/upswing-well-known.yml
+- type: Authentication
+  url: authentication/upswing-authentication.yml
+- type: DeveloperPortal
+  url: https://integration-docs.upswing.one
+- type: Support
+  url: https://zh.support.upswing.one/portal/en/home

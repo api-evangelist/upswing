@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://upswing.one
+host: https://upswing.one
+notes: >-
+  Upswing Financial Technologies (upswing.one) publishes no /.well-known/
+  discovery documents. Every probe below returned HTTP 404 (robots.txt on the
+  root is the only 200). The company is a B2B open-finance infrastructure
+  platform with no public developer portal, so absence of a discovery surface
+  is the expected, honest result.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404

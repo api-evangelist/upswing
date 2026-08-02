@@ -1,0 +1,16 @@
+# Upswing
+
+> Upswing Financial Technologies is a Bengaluru/Mumbai-based open finance-as-a-service platform. Its API platform lets consumer companies embed financial products (deposits, lending) from regulated Indian banks, while Upswing manages the bank integrations and compliance. Backed by QED Investors and Quona Capital. Upswing publishes no public developer portal, API documentation, or machine-readable specs; its APIs are available to partners under commercial agreements.
+
+## Company
+
+- [Website](https://upswing.one/): Open finance made easy — full-stack API platform for embedded financial products
+- [News](https://upswing.one/news): Funding and press coverage
+- [Partners](https://upswing.one/our-partners): Partner banks include AU Small Finance Bank, DCB Bank, Utkarsh, Shivalik, Unity, South Indian Bank, Suryoday; consumer partners include slice, Bajaj Finserv, Shriram Finance
+- [Careers](https://upswing.one/career): Hiring page
+- [GitHub](https://github.com/upswing-one): Organization (no public repositories)
+- [LinkedIn](https://www.linkedin.com/company/upswing-financial-technologies/): Company profile
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/upswing/refs/heads/main/apis.yml): APIs.json profile for Upswing
