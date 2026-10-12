@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/upswing/integrations
+- https://n8n.io/integrations/upswing/
+- https://composio.dev/toolkits/upswing
+- https://monid.ai/tools/upswing
+checked:
+- https://composio.dev/toolkits/upswing
+- https://monid.ai/tools/upswing
+- https://n8n.io/integrations/upswing/
+- https://zapier.com/apps/upswing/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
